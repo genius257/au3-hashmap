@@ -172,7 +172,7 @@ EndFunc
 
 ; https://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/share/classes/java/lang/Boolean.java#l212
 Func _HashMap_HashBoolean($bBoolean)
-    Return $b ? 1231 : 1237
+    Return $bBoolean ? 1231 : 1237
 EndFunc
 
 ; https://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/share/classes/java/lang/Integer.java#l959
